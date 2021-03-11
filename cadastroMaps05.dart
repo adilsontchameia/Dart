@@ -7,6 +7,7 @@ main(){
 
 bool condicao = true;
 
+ print("\x1B[2J\x1B[0;0H");
 while(condicao){
   print("===========DIGITE UM COMANDO==========");
 
@@ -19,7 +20,6 @@ while(condicao){
 
   cadastrarPessoas();
 }else if(comando == "imprimir"){
-  
   print(cadastro);
 
 }else {
