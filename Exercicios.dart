@@ -1,9 +1,11 @@
+import 'dart:io';
+
 main(){
 
 var num1 = 3;
-var numw = 5;
+var num2 = 5;
 
-var isTrue = num1 != num2;
+var isTrue = num1 >= num2;
 
 //isTrue
 if(isTrue){
