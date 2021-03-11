@@ -6,16 +6,23 @@ Map<String, dynamic> cadastro = {};
 
 bool condicao = true;
 
-print("===========DIGITE UM COMANDO==========")
+}
+
 while(condicao){
+  print("===========DIGITE UM COMANDO==========");
+
   String  comando = stdin.readLineSync();
-  if(comando == "sair");
+  if(comando == "sair"){
   print("Programa Finalizado");
+
   condicao = false;
 } else if (comando == "cadastro"){
+
   cadastrar();
 }else if(comando == "imprimir"){
+  
   print(cadastro);
+
 }else {
   print("Comando Inexistente.");
 }
@@ -25,17 +32,17 @@ while(condicao){
 
 cadastrarPessoas(){
   print("========Digite o seu Nome========");
-cadastro["nome"] = stdin.readLineSynce();
+cadastro["nome"] = stdin.readLineSync();
 
 print("========Digite sua Idade========");
 
-cadastro["idade"] = stdin.readLineSynce();
+cadastro["idade"] = stdin.readLineSync();
 
 print("========Digite sua Cidade========");
-cadastro["cidade"] = stdin.readLineSynce();
+cadastro["cidade"] = stdin.readLineSync();
 
 print("========Digite o sua Provincia========");
-cadastro["provincia"] = stdin.readLineSynce();
+cadastro["provincia"] = stdin.readLineSync();
 
 print(cadastro);
 }
