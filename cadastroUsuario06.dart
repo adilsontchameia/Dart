@@ -3,7 +3,7 @@ import "dart:io";
 
 
 //Map ttipado(com variaveis especificas);
-Map<String, dynamic> cadastro = ;
+Map<String, dynamic> cadastro = {};
 
 main(){
 
