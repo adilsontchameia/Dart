@@ -13,6 +13,14 @@ main(){
     "cidade" : "Menongue",
 };
   //Ao inves de passar indice como array, apenas passa-se a key.
-    print(maps["nome"]); 
 
+  //Atribuir valor fora do map padrao criado
+    maps["nome"] = "Yago Chameia";
+    //Fim
+
+    print("Nome: " + maps["nome"]); 
+    print(maps["idade"]); 
+
+
+//Map = forma para representar dados, nao propriamente para uma lista.
 }
