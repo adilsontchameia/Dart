@@ -11,6 +11,8 @@ print("Verdadeiro");
 
 print("Falso");
 
+print("Valor a: " a + ", valor b: " + b);
+
 }
 
 }
