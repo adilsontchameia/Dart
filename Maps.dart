@@ -7,7 +7,12 @@ main(){
   //Ao contrario de arrays que se pega por indice.
 
   var maps = {
-    
-  }
+    "nome" : "Adilson Chameia",
+    "idade" : 19,
+    "provincia" : "Cuando Cubango",
+    "cidade" : "Menongue",
+};
+  //Ao inves de passar indice como array, apenas passa-se a key.
+    print(maps["nome"]); 
 
 }
