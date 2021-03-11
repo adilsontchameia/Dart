@@ -1,12 +1,11 @@
 import "dart:io";
 
-main(){
 //Map
 Map<String, dynamic> cadastro = {};
 
-bool condicao = true;
+main(){
 
-}
+bool condicao = true;
 
 while(condicao){
   print("===========DIGITE UM COMANDO==========");
@@ -18,7 +17,7 @@ while(condicao){
   condicao = false;
 } else if (comando == "cadastro"){
 
-  cadastrar();
+  cadastrarPessoas();
 }else if(comando == "imprimir"){
   
   print(cadastro);
@@ -27,7 +26,7 @@ while(condicao){
   print("Comando Inexistente.");
 }
 
-
+}
 }
 
 cadastrarPessoas(){
