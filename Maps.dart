@@ -6,7 +6,7 @@ main(){
   //Lista de dados que recuperamos por string
   //Ao contrario de arrays que se pega por indice.
 
-  var maps = {
+  Map<> maps = {
     "nome" : "Adilson Chameia",
     "idade" : 19,
     "provincia" : "Cuando Cubango",
