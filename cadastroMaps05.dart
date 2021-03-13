@@ -11,7 +11,7 @@ bool condicao = true;
 while(condicao){
   print("===========DIGITE UM COMANDO==========");
 
-  String  comando = stdin.readLineSync();
+  var  comando = stdin.readLineSync();
   if(comando == "sair"){
   print("Programa Finalizado");
 
